@@ -31,7 +31,7 @@ The hardware components used in the project are:
 - **Power Supply**: Provides the necessary power for all components.
 - **3D-Printed Strandbeest Linkages**: Custom linkages designed in AutoCAD Fusion 360.
 
-Refer to the [detailed report](https://github.com/manojkumarks8/Projects/blob/main/SABER-Strandbeest-Autonomous-Bot/SABERProjectReport.pdf) for a full description of the components and assembly process.
+Refer to the [detailed report](https://github.com/manojkumarks8/SABER-Strandbeest-Autonomous-Bot/SABERProjectReport.pdf) for a full description of the components and assembly process.
 
 ## Software Implementation
 The bot's autonomy is driven by a program written in C for the Arduino Uno, which handles motor control, obstacle detection, and communication. The code logic ensures the bot can:
@@ -54,7 +54,7 @@ To recreate the project:
 1. Download and install [Arduino IDE](https://www.arduino.cc/en/software).
 2. Clone this repository:
     ```
-    git clone https://github.com/manojkumarks8//Projects/SABER-Strandbeest-Autonomous-Bot.git
+    [git clone https://github.com/manojkumarks8/SABER-Strandbeest-Autonomous-Bot.git]
     ```
 3. Make connections according to the circuit diagram available in [circuit_image](./circuit_image.png) annd refer to [CircuitDocumentation](./CircuitDocumentation.pdf) file
 4. Open the [saberlogic.c](./saberlogic.c) file in the Arduino IDE and upload it to your Arduino Uno.
